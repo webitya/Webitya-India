@@ -1,0 +1,42 @@
+.contact-page {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .banner {
+    background-color: #f0f2f5;
+    padding: 40px 20px;
+  }
+  
+  .banner-title {
+    color: #333;
+  }
+  
+  .banner-subtitle {
+    color: #555;
+  }
+  
+  .contact-info {
+    margin-top: -2px;
+  }
+  
+  .contact-card {
+    text-align: center;
+  }
+  
+  .contact-card .icon {
+    font-size: 2rem;
+  }
+  
+  .map {
+    height: 400px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .submit-button {
+    width: 100%;
+  }
+  

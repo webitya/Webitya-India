@@ -1,0 +1,198 @@
+
+.footer-section {
+  background-color: #1b1b1b;
+  color: #f8f8f8;
+  padding: 40px 0;
+  position: relative;
+  border-top: 1px solid #444;
+}
+
+.footer-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-title {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: #ccc;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footer-button {
+  background-color: #1055BD;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  border: none;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+}
+
+.footer-list li a {
+  color: #bbb;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-list li a:hover {
+  color: #fff;
+}
+
+.footer-column {
+  padding: 10px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: #fff;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1055BD;
+}
+
+.footer-bottom {
+  background-color: #111;
+  text-align: center;
+  padding: 20px 0;
+  color: #777;
+  font-size: 14px;
+  border-top: 1px solid #444;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.service-item {
+  background-color: #f8f9fa;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.service-item:hover {
+  background-color: #e2e8f0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+.neon-text {
+  text-shadow: 0 0 15px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
+
+.neon-card {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+.neon-star {
+  text-shadow: 0 0 8px yellow, 0 0 12px yellow, 0 0 15px yellow;
+}
+
+@media only screen and (max-width:768px){
+      .breadCrumAbout{
+          min-height:100px;
+      }
+      .breadCrumAbout h1{
+        font-size:34px;
+      }
+}
+@media only screen and (min-width:769px){
+    .breadCrumAbout{
+        min-height:200px;
+    }
+    .breadCrumAbout h1{
+        font-size:54px;
+      }
+}
+/* Card Styles */
+.service-card {
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-icon {
+    border-radius: 50%;
+    padding: 1rem;
+    color: #fff;
+  }
+  
+  .card-icon.bg-blue-500 { background-color: #1d4ed8; }
+  .card-icon.bg-green-500 { background-color: #10b981; }
+  .card-icon.bg-orange-500 { background-color: #f97316; }
+  .card-icon.bg-red-500 { background-color: #ef4444; }
+  .card-icon.bg-purple-500 { background-color: #a855f7; }
+  .card-icon.bg-teal-500 { background-color: #14b8a6; }
+  .card-icon.bg-indigo-500 { background-color: #4338ca; }
+  .card-icon.bg-yellow-500 { background-color: #f59e0b; }
+  .card-icon.bg-teal-600 { background-color: #0d9488; }
+  .card-icon.bg-gray-600 { background-color: #4b5563; }
+  .card-icon.bg-pink-500 { background-color: #ec4899; }
+  .card-icon.bg-yellow-600 { background-color: #d97706; }
+  .card-icon.bg-blue-600 { background-color: #2563eb; }
+  .card-icon.bg-red-600 { background-color: #dc2626; }
+  .card-icon.bg-green-600 { background-color: #166534; }
+  .card-icon.bg-purple-600 { background-color: #6d28d9; }
+  
+  /* Button Styles */
+  .ant-btn-primary {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+  }
+  
